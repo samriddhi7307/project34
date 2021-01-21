@@ -42,7 +42,7 @@ class Pendulum
  {
   
  var options={
-   isStatic:true,
+   //isStatic:true,
     restitution : 1,
     friction : 0.3,
     density : 1,
