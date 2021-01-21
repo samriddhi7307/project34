@@ -42,6 +42,7 @@ class Pendulum
  {
   
  var options={
+   //isStatic:true,
     restitution : 1,
     friction : 0.3,
     density : 1,
@@ -57,9 +58,11 @@ class Pendulum
    push();
     var pos = this.body.position;
    fill(15);
+   translate(pos.x,pos.y);
    strokeWeight(1);
    stroke("white");
-   ellipse(pos.x,pos.y,50,50); 
+   ellipseMode(RADIUS);
+   ellipse(0,0,27,27); 
    pop();
  }
 };

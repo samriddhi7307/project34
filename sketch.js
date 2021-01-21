@@ -20,11 +20,11 @@ function setup() {
   World.add(world,mConstraint);*/
     roof1 = new roof (370,300,200,20);
 
-    Pendulum1 = new Pendulum(310,395,10);
-    Pendulum2 = new Pendulum(340,400,10);
-  	Pendulum3 = new Pendulum(370,400,10);
-	  Pendulum4 = new Pendulum(400,400,10);
-	  Pendulum5 = new Pendulum(430,400,10);
+    Pendulum1 = new Pendulum(230,400,10);
+    Pendulum2 = new Pendulum(291,400,10);
+  	Pendulum3 = new Pendulum(352,400,10);
+	  Pendulum4 = new Pendulum(413,400,10);
+	  Pendulum5 = new Pendulum(473,400,10);
     
     sling1 = new Sling(Pendulum1.body,roof1.body,-120,0);
     sling2 = new Sling(Pendulum2.body,roof1.body,-60,0);
